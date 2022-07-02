@@ -59,7 +59,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-128x128.png",
-    "mbrsiteDomain": "wujrbtmiet",
+    "mbrsiteDomain": "5awfkfcati",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": false,
@@ -78,7 +78,10 @@
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "PWA": {
-      "enabled": false
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-512x512.png",
+      "themeColor": "#4f6df5"
     },
     "global_footer_custom": "<!-- Boei -->\n     \n <!-- End of Boei  -->",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
