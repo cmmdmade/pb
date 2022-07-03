@@ -59,7 +59,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-128x128.png",
-    "mbrsiteDomain": "g0dziovtzv",
+    "mbrsiteDomain": "ookmylmlj6",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": false,
@@ -78,7 +78,10 @@
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "PWA": {
-      "enabled": false
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-512x512_1.png",
+      "themeColor": "#4f6df5"
     },
     "global_footer_custom": "<!-- Boei -->\n     \n <!-- End of Boei  -->",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -759,13 +762,13 @@
             }
           },
           "_cid": "taoeQmFaoY",
+          "_anchor": "features07-c3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features07-c3",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "_name": "content01",
