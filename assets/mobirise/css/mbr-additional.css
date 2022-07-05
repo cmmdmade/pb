@@ -1200,25 +1200,8 @@ a {
 .cid-taJ6k40b74 .card_topic {
   color: #ffffff;
 }
-.cid-taqmhb72ti {
-  padding-top: 8rem;
-  padding-bottom: 2rem;
-  background-color: #000000;
-}
-.cid-taqmhb72ti .mbr-section-title {
-  color: #ffffff;
-}
-.cid-taqmhb72ti .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-taqmhb72ti .line {
-  background: #353535;
-  height: 1px;
-  width: 100%;
-  margin-top: 2rem;
-}
 .cid-taoeQmFaoY {
-  padding-top: 0px;
+  padding-top: 60px;
   padding-bottom: 135px;
   background-color: #000000;
 }
@@ -1291,7 +1274,7 @@ a {
 }
 .cid-taoeQmFaoY .mbr-section-title,
 .cid-taoeQmFaoY .line-wrap {
-  text-align: left;
+  text-align: center;
 }
 .cid-taoeQmFaoY .card .card-wrapper .card-box .card-title {
   color: #4f6df5;
