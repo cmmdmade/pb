@@ -3395,101 +3395,10 @@ a {
     padding-top: 60px;
   }
 }
-.cid-t7kKSmO3HW {
-  padding-top: 4rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-t7kKSmO3HW .row {
-  align-items: center;
-}
-.cid-t7kKSmO3HW .image-wrapper {
-  padding: 0 1rem;
-}
-@media (max-width: 991px) {
-  .cid-t7kKSmO3HW .image-wrapper {
-    padding: 0 0.75rem;
-  }
-}
-.cid-t7kKSmO3HW .text-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  padding: 30px 0 0;
-}
-@media (min-width: 992px) {
-  .cid-t7kKSmO3HW .text-wrapper {
-    padding: 0 0 0 60px;
-  }
-}
-.cid-t7kKSmO3HW .text-container {
-  display: flex;
-  flex-direction: column;
-}
-@media (max-width: 991px) {
-  .cid-t7kKSmO3HW .text-container {
-    width: 550px;
-    flex-shrink: 1;
-  }
-}
-.cid-t7kKSmO3HW .label-text {
-  width: 100%;
-  color: #0057fc;
-}
-.cid-t7kKSmO3HW .mbr-section-title {
-  margin-bottom: 12px;
-}
-.cid-t7kKSmO3HW .mbr-text {
-  color: #555555;
-  width: 100%;
-  margin-bottom: 32px;
-}
-.cid-t7kKSmO3HW .item {
-  display: flex;
-  align-items: center;
-  margin: 0 0 10px;
-  flex-wrap: wrap;
-}
-.cid-t7kKSmO3HW .mbr-section-subtitle {
-  margin: 0;
-  width: 100%;
-}
-.cid-t7kKSmO3HW .numbers-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.cid-t7kKSmO3HW .number-wrap {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.cid-t7kKSmO3HW .color-text {
-  color: #0057fc;
-}
-.cid-t7kKSmO3HW .text-box {
-  width: 100%;
-}
-.cid-t7kKSmO3HW .icon-text {
-  width: 100%;
-}
-.cid-t7kKSmO3HW .btn-container {
-  width: 100%;
-}
-@media (max-width: 575px) {
-  .cid-t7kKSmO3HW .mbr-section-btn {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .cid-t7kKSmO3HW .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
 .cid-t7kQVKhGeO {
   padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/proximitybillboards.solutions-gmb-overlay-1920x1080.png");
+  padding-bottom: 60px;
+  background: #000000;
 }
 .cid-t7kQVKhGeO .plan-body .btn-bgr {
   z-index: 0;
@@ -3621,8 +3530,8 @@ a {
   text-align: left;
 }
 .cid-t7ANoQDklK {
-  padding-top: 15px;
-  padding-bottom: 105px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #000000;
 }
 .cid-t7ANoQDklK .text-wrap {
