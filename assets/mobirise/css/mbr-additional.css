@@ -4831,7 +4831,7 @@ a {
 }
 @media (min-width: 768px) {
   .cid-t6QFV9MTTS {
-    background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
+    background-image: url("../../../assets/images/mbr-1-1920x1280.jpeg");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 50% auto;
@@ -4845,8 +4845,8 @@ a {
 }
 .cid-t6QFV9MTTS .col-text {
   position: relative;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .cid-t6QFV9MTTS .col-text .radial-svg {
   display: none;
@@ -4926,7 +4926,7 @@ a {
   color: #ffffff							!important;
 }
 .cid-t7YIfKDou8 {
-  padding-top: 75px;
+  padding-top: 45px;
   padding-bottom: 75px;
   background-color: #000000;
 }
