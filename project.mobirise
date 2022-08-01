@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "presence.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "skillm4",
       "title": "SkillM4",
@@ -73,7 +73,7 @@
       "text": "I will never be spammed, and my info is kept 100% private and secure. By continuing, I agree to Proximity Billboards' <a href='https://consult.crossmediamarketingdeveloper.com/lite/terms-of-service'>Terms of Service</a> and <a href='https://consult.crossmediamarketingdeveloper.com/lite/privacy'>Privacy Policy</a>."
     },
     "pwa-switcher": true,
-    "uniqCompNum": 466,
+    "uniqCompNum": 473,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
@@ -1569,6 +1569,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"vp_embed_wrap\" style=\"width:100%;\"><iframe id=\"vp_video_embed\" allow=\"autoplay\" data-rate=\"1.7699115044247788\" data-sticky=\"none\" src=\"https://app.vidjack.com/embed/7792\" style=\"width:100%; z-index:1000000;\"></iframe>[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "skillm4",
+          "_anchor": "custom-html-d4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://app.vidjack.com/js/vp_embed.js\" type=\"text/javascript\" async></script>"
+          ]
         },
         {
           "_name": "features15",
