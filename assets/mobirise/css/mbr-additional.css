@@ -1202,7 +1202,7 @@ a {
 }
 .cid-trCHGd6BMF {
   padding-top: 0rem;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
   background-color: #000000;
 }
 .cid-trCHGd6BMF .wrap {
@@ -1252,7 +1252,7 @@ a {
   object-fit: cover;
 }
 .cid-trCHGd6BMF .minwidth {
-  background-image: url("../../../assets/images/proximitybillboards.solutions-gmb-overlay-1920x1080.png");
+  background-image: url("../../../assets/images/target-group-3460039-1920-1920x855.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1610,6 +1610,7 @@ a {
 }
 .cid-trDdzKfky9 .mbr-section-title {
   color: #4f6df5;
+  text-align: center;
 }
 .cid-trDdzKfky9 .mbr-section-subtitle {
   color: #ffffff;
@@ -1758,8 +1759,12 @@ a {
   clip-path: inset(0 0 0 0);
   transition-delay: 0.3s;
 }
+.cid-trDdzKfky9 H4 {
+  text-align: center;
+  color: #ffffff;
+}
 .cid-t7f1GU1LDe {
-  padding-top: 0px;
+  padding-top: 45px;
   padding-bottom: 75px;
   background-color: #000000;
 }
@@ -3759,7 +3764,7 @@ a {
   color: #fafafa;
 }
 .cid-t7YCzOk7L8 {
-  padding-top: 75px;
+  padding-top: 0px;
   padding-bottom: 75px;
   background-color: #000000;
 }
