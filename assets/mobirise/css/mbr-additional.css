@@ -1288,10 +1288,12 @@ a {
 }
 .cid-trCHGd6BMF .mbr-section-title {
   color: #4f6df5;
+  text-align: center;
 }
 .cid-trCHGd6BMF .mbr-text,
 .cid-trCHGd6BMF .mbr-section-btn {
   color: #ffffff;
+  text-align: center;
 }
 .cid-trDQ4iTiPe {
   padding-top: 2rem;
@@ -1764,7 +1766,7 @@ a {
   color: #ffffff;
 }
 .cid-t7f1GU1LDe {
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 75px;
   background-color: #000000;
 }
