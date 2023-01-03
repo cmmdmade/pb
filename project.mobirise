@@ -73,7 +73,7 @@
       "text": "I will never be spammed, and my info is kept 100% private and secure. By continuing, I agree to Proximity Billboards' <a href='https://consult.crossmediamarketingdeveloper.com/lite/terms-of-service'>Terms of Service</a> and <a href='https://consult.crossmediamarketingdeveloper.com/lite/privacy'>Privacy Policy</a>."
     },
     "pwa-switcher": true,
-    "uniqCompNum": 547,
+    "uniqCompNum": 556,
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
@@ -1125,86 +1125,153 @@
           "_params": {}
         },
         {
-          "_name": "slider1",
-          "_sourceTheme": "impressm5",
+          "_name": "slider01",
+          "_sourceTheme": "complexm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 mbr-embla\" group=\"Sliders &amp; Galleries\" plugins=\"embla\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\" checked=\"\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked=\"\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked=\"\">\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked=\"\">\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\">\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\">\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/complexm5/components/_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div class=\"position-relative text-center\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>WORKS</b>\n            </h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-left mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>CHECK OUT THESE BRANDING, REPUTATION AND OFFER AD DESIGN EXAMPLES - Developed for desktop, mobile and tablet.</b></h5>\n        </div>\n        <div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n            <div class=\"embla__viewport\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n                <div class=\"embla__container\">\n                    <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://paidwebtraffic.proximitybillboards.solutions/l/overview\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/pb-1st-campaign-300x250-layout-2-300x250.jpg\" alt=\"Mobirise Website Builder\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Corporate advisory</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-lawncare-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Consulting services</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://paidwebtraffic.proximitybillboards.solutions/l/overview\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/pb-1st-campaign-300x250-layout-300x250.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Consulting services</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-cleaning-service-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Business solutions&nbsp;</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-fitness-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Corporate advisory</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-event-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"5\" data-bs-slide-to=\"6\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Corporate advisory</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-plumber-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"6\" data-bs-slide-to=\"7\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Corporate advisory</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-music-lessons-example-display-ad-300x250.png\" alt=\"Mobirise Website Builder\" data-slide-to=\"7\" data-bs-slide-to=\"8\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\">Corporate advisory</h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n\n\n                </div>\n            </div>\n            <button class=\"embla__button embla__button--prev\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Previous</span>\n            </button>\n            <button class=\"embla__button embla__button--next\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Next</span>\n            </button>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = \"color\")": {
-              "background": "@bg-value"
+              "background-color": "@bg-value"
             },
             "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
             },
-            "h2, h3, h4, h5, p": {
-              "margin": "0"
-            },
-            ".inner-container": {
-              "margin-right": "-32px"
-            },
-            ".content": {
+            "img": {
+              "transition": "all 0.3s",
+              "height": "350px",
               "width": "100%",
-              "padding-left": "~\"calc((100% - 1300px) / 2)\"",
-              "@media (max-width: 1440px)": {
-                "padding-left": "~\"calc((100% - 1100px) / 2)\""
+              "object-fit": "cover"
+            },
+            ".slide-content": {
+              "width": "100%",
+              "&:hover": {
+                "img": {
+                  "transform": "scale(1.15) rotate(-5deg)"
+                }
               },
-              "@media (max-width: 1200px)": {
-                "padding-left": "~\"calc((100% - 920px) / 2)\""
-              },
-              "@media (max-width: 1024px)": {
-                "padding-left": "~\"calc((100% - 768px) / 2)\""
-              },
-              "@media (max-width: 800px)": {
-                "width": "100%",
-                "padding-left": "7%"
-              },
-              "@media (max-width: 480px)": {
-                "padding-left": "0"
+              "position": "relative",
+              "height": "100%",
+              "display": "flex",
+              "overflow": "hidden",
+              "flex-flow": "column nowrap"
+            },
+            ".img-link": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "transition": "all 0.3s",
+              "padding": "1rem 0rem",
+              "color": "#000000",
+              "width": "100%",
+              "span": {
+                "font-size": "2rem",
+                "color": "currentColor"
               }
             },
-            ".text-wrap": {
-              "position": "relative",
-              "width": "18.6%",
-              "padding-right": "30px",
-              "@media (max-width: 1599px)": {
-                "width": "25%"
-              },
-              "@media (max-width: 1024px)": {
-                "padding-right": "24px"
-              },
-              "@media (max-width: 768px)": {
-                "width": "38%"
-              },
-              "@media (max-width: 680px)": {
-                "width": "100%"
-              }
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item-wrapper": {
+              "position": "relative"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
             },
             ".mbr-section-title": {
-              "color": "#4f6df5",
-              "text-align": "center"
+              "color": "#ffffff"
             },
-            ".mbr-section-subtitle": {
-              "color": "#4f6df5"
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
             },
-            ".controls": {
-              "margin-top": "45px"
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "490px",
+              "max-width": "490px",
+              "@media (max-width: 768px)": {
+                "min-width": "70%",
+                "max-width": "initial",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button--prev": {
+              "span": {
+                "padding-right": "7px"
+              }
+            },
+            ".embla__button--next": {
+              "span": {
+                "padding-left": "3px"
+              }
+            },
+            ".embla__button": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "40px",
+              "color": "black",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&.embla__button--prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 1400px)": {
+                "background-color": "rgba(255, 255, 255, 0.5)",
+                "border-color": "black"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "margin-top": "-0.5rem"
+              }
             },
             ".embla": {
               "position": "relative",
-              "display": "flex",
-              "flex-wrap": "wrap",
-              "align-items": "center",
               "width": "100%"
             },
             ".embla__viewport": {
               "overflow": "hidden",
-              "width": "81.4%",
-              "@media (max-width: 1599px)": {
-                "width": "75%"
-              },
-              "@media (max-width: 680px)": {
-                "width": "100%"
-              }
+              "width": "100%"
             },
             ".embla__viewport.is-draggable": {
               "cursor": "grab"
@@ -1217,124 +1284,18 @@
               "user-select": "none",
               "-webkit-touch-callout": "none",
               "-khtml-user-select": "none",
-              "-webkit-tap-highlight-color": "transparent",
-              "position": "relative",
-              "width": "81.4%",
-              "@media (max-width: 1599px)": {
-                "width": "75%"
-              },
-              "@media (max-width: 680px)": {
-                "width": "100%",
-                "margin-top": "30px"
-              }
+              "-webkit-tap-highlight-color": "transparent"
             },
-            ".embla__slide": {
-              "position": "relative",
-              "margin-right": "30px"
+            ".img-link, .link-icon": {
+              "color": "#000000"
             },
-            ".card-wrap": {
-              "width": "345.75px",
-              "@media (max-width: 680px)": {
-                "width": "296px"
-              }
-            },
-            ".image-wrap": {
-              "width": "100%",
-              "overflow": "hidden",
-              "img": {
-                "max-width": "100%",
-                "height": "auto",
-                "object-fit": "cover"
-              }
-            },
-            ".content-wrap": {
-              "margin-top": "20px"
-            },
-            ".mbr-card-title": {
-              "margin-bottom": "6px",
-              "color": "#ffffff"
-            },
-            ".mbr-card-subtitle": {
-              "margin-bottom": "2px",
-              "color": "#6b6b6b"
-            },
-            ".mbr-card-text": {
-              "color": "#6b6b6b",
-              "& when not (@showCardTitle)": {
-                "margin-top": "6px"
-              }
-            },
-            ".embla__button--next svg polygon, .embla__button--prev svg polygon": {
-              "transition": "0.5s cubic-bezier(0.22, 0.61, 0.36, 1)"
-            },
-            ".embla__button--next svg, .embla__button--prev svg": {
-              "overflow": "hidden"
-            },
-            ".embla__button--prev": {
-              "vertical-align": "super",
-              "color": "#000",
-              "transition": "color 0.25s ease-out",
-              "&:hover": {
-                "color": "#000"
-              }
-            },
-            ".embla__button--prev svg polygon:nth-of-type(1)": {
-              "-webkit-clip-path": "inset(0 0 0 0)",
-              "clip-path": "inset(0 0 0 0)"
-            },
-            ".embla__button--prev svg polygon:nth-of-type(2)": {
-              "-webkit-clip-path": "inset(0 0 0 100%)",
-              "clip-path": "inset(0 0 0 100%)"
-            },
-            ".embla__button--prev:hover svg polygon:nth-of-type(1)": {
-              "-webkit-clip-path": "inset(0 100% 0 0)",
-              "clip-path": "inset(0 100% 0 0)"
-            },
-            ".embla__button--prev:hover svg polygon:nth-of-type(2)": {
-              "-webkit-clip-path": "inset(0 0 0 0)",
-              "clip-path": "inset(0 0 0 0)",
-              "transition-delay": "0.3s"
-            },
-            ".embla__button--next": {
-              "vertical-align": "sub",
-              "color": "#000",
-              "transition": "color 0.25s ease-out",
-              "&:hover": {
-                "color": "#000"
-              }
-            },
-            ".embla__button--next svg polygon:nth-of-type(1)": {
-              "-webkit-clip-path": "inset(0 0 0 0)",
-              "clip-path": "inset(0 0 0 0)"
-            },
-            ".embla__button--next svg polygon:nth-of-type(2)": {
-              "-webkit-clip-path": "inset(0 100% 0 0)",
-              "clip-path": "inset(0 100% 0 0)"
-            },
-            ".embla__button--next:hover svg polygon:nth-of-type(1)": {
-              "-webkit-clip-path": "inset(0 0 0 100%)",
-              "clip-path": "inset(0 0 0 100%)"
-            },
-            ".embla__button--next:hover svg polygon:nth-of-type(2)": {
-              "-webkit-clip-path": "inset(0 0 0 0)",
-              "clip-path": "inset(0 0 0 0)",
-              "transition-delay": "0.3s"
-            },
-            "H4": {
-              "text-align": "center",
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#f8f5fa",
+            ".mbr-section-subtitle": {
+              "color": "#4f6df5",
               "text-align": "center"
             }
           },
-          "_customHTML": "<section class=\"slider1 mbr-embla\" group=\"Gallery & Slider\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"embla\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\">\n        <input type=\"checkbox\" title=\"Card Subtitle\" name=\"showCardSubtitle\">\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\">\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-9.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n<div class=\"inner-container\">\n        <div class=\"content\">\n\n            <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n                <div class=\"text-wrap\">\n                    <div mbr-if=\"showTitle || showSubtitle\">\n                       \n                        <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Display&nbsp;</b><b>Ad Design Examples</b></h2>\n                         <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>CHECK OUT THESE BRANDING, REPUTATION AND OFFER AD DESIGN EXAMPLES - Developed for desktop, mobile and tablet.</b></h4>\n                    </div>\n                    <div class=\"controls\">\n                        <button style=\"display:none;\" class=\"embla__button embla__button--prev\">\n                           <svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"47px\" height=\"15px\" viewBox=\"0 0 47 15\" enable-background=\"new 0 0 47 15\" xml:space=\"preserve\">\n                               <g>\n                                    <polygon points=\"1.319,13.477 45.681,13.477 45.681,12.404 4.446,12.404 17.353,2.37 16.694,1.523\"></polygon>\n                                    <polygon points=\"1.319,13.477 45.681,13.477 45.681,12.404 4.446,12.404 17.353,2.37 16.694,1.523\"></polygon>\n                                </g>\n                            </svg>\n                            <span class=\"sr-only visually-hidden\">Previous</span>\n                        </button>\n                       <button style=\"display:none;\" class=\"embla__button embla__button--next\">\n                           <svg xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"47px\" height=\"15px\" viewBox=\"0 0 47 15\" enable-background=\"new 0 0 47 15\" xml:space=\"preserve\">\n                                <g>\n                                    <polygon points=\"45.681,1.523 1.319,1.523 1.319,2.596 42.554,2.596 29.647,12.631 30.306,13.477\"></polygon>\n                                    <polygon points=\"45.681,1.523 1.319,1.523 1.319,2.596 42.554,2.596 29.647,12.631 30.306,13.477\"></polygon>\n                                </g>\n                            </svg>\n                            <span class=\"sr-only visually-hidden\">Next</span>\n                        </button>\n                    </div>\n                </div>\n                <div class=\"embla__viewport\">\n                    <div class=\"embla__container\">\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <a href=\"https://paidwebtraffic.proximitybillboards.solutions/l/overview\"><img src=\"@PROJECT_PATH@/assets/images/pb-1st-campaign-300x250-layout-2-300x250.jpg\" alt=\"Proximity Billboards\"></a>\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-cleaning-service-example-display-ad-300x250.png\" alt=\"Cleaning Service Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        NEW DAY BRINGS NEW STRENGTH\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-music-lessons-example-display-ad-300x250.png\" alt=\"Music Lessons Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-event-example-display-ad-300x250.png\" alt=\"Event Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <a href=\"https://paidwebtraffic.proximitybillboards.solutions/l/overview\"><img src=\"@PROJECT_PATH@/assets/images/pb-1st-campaign-300x250-layout-300x250.jpg\" alt=\"Proximity Billboards\"></a>\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-fitness-example-display-ad-300x250.png\" alt=\"Fitness Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        NEW DAY BRINGS NEW STRENGTH\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-lawncare-example-display-ad-300x250.png\" alt=\"Lawn Care Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-plumber-example-display-ad-300x250.png\" alt=\"Plumbing Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\"embla__slide\">\n                            <div class=\"card-wrap\">\n                                <div class=\"image-wrap\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/proximitybillboards.solutions-placeholder-ad-300x250.png\" alt=\"Lawn Care Display Advertising Ad Example - Proximity Billboards\">\n                                </div>\n                                <div class=\"content-wrap\">\n                                    <h5 class=\"mbr-card-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardSubtitle\" data-app-selector=\".mbr-card-subtitle\">\n                                        SUBTITLE\n                                    </h5>\n                                    <h3 class=\"mbr-card-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showCardTitle\" data-app-selector=\".mbr-card-title\">\n                                        LOREM IPSUM DOLOR SIT AMET\n                                    </h3>\n                                    <p class=\"mbr-card-text mbr-fonts-style\" data-app-selector=\".card-text, .mbr-section-btn, .social-row\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n                                        By John Smith\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n       </div>\n      </div>\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "slider1-en",
-          "_isUserblock": true,
-          "_cid": "trDdzKfky9",
+          "_cid": "trSzRbh0c0",
+          "_anchor": "slider01-fd",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1343,7 +1304,7 @@
         {
           "_name": "info2",
           "_sourceTheme": "commercem4",
-          "_customHTML": "<section class=\"info2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://vimeo.com/704899862\">\n        <input type=\"color\" title=\"Play Btn Color\" name=\"playColor\" value=\"#4f6df5\">\n        <input type=\"checkbox\" title=\"Show Description\" name=\"showDescription\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#000000\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Video Ad Example</b></h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                    <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>\n                </p>\n                <div class=\"mbr-media show-modal align-center py-2\" data-modal=\".modalWindow\">\n                    <div class=\"btn-play\">\n                       <span class=\"play\"></span> \n                    </div>\n                </div>\n\n                <div mbr-text class=\"icon-description align-center font-italic pt-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".icon-description, .mbr-media\">\n                    Watch Video\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"info2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://vimeo.com/704899862\">\n        <input type=\"color\" title=\"Play Btn Color\" name=\"playColor\" value=\"#4f6df5\">\n        <input type=\"checkbox\" title=\"Show Description\" name=\"showDescription\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#000000\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Video Ad Example</b></h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                    <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>\n                </p>\n                <div class=\"mbr-media show-modal align-center py-2\" data-modal=\".modalWindow\">\n                    <div class=\"btn-play\">\n                       <span class=\"play\"></span> \n                    </div>\n                </div>\n\n                <div mbr-text class=\"icon-description align-center font-italic pt-3 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".icon-description, .mbr-media\">\n                    Watch Video\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
