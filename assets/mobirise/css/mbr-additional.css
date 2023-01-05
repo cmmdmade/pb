@@ -1289,7 +1289,7 @@ a {
 }
 .cid-trCHGd6BMF .mbr-text,
 .cid-trCHGd6BMF .mbr-section-btn {
-  color: #4f6df5;
+  color: #ffffff;
   text-align: center;
 }
 .cid-trDQ4iTiPe {
@@ -1477,7 +1477,7 @@ a {
   color: #4f6df5;
 }
 .cid-trCnI6BXsj {
-  padding-top: 5rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #000000;
 }
@@ -1544,7 +1544,7 @@ a {
 }
 .cid-trSzRbh0c0 img {
   transition: all 0.3s;
-  height: 350px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
