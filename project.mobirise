@@ -59,7 +59,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-128x128.png",
-    "mbrsiteDomain": "gqqin0wjju",
+    "mbrsiteDomain": "nxsspr8ci3",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": false,
@@ -76,7 +76,7 @@
     "uniqCompNum": 577,
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "PWA": {
       "enabled": true,
       "name": "",
