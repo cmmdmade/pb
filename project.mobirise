@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "faq.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "skillm4",
       "title": "SkillM4",
@@ -59,7 +59,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-128x128.png",
-    "mbrsiteDomain": "zqh5ng7xck",
+    "mbrsiteDomain": "gqqin0wjju",
     "cssOptimize": true,
     "lazyLoad": true,
     "robotsSwitcher": false,
@@ -76,18 +76,18 @@
     "uniqCompNum": 577,
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "PWA": {
       "enabled": true,
       "name": "",
       "icon": "@PROJECT_PATH@/assets/images/proximity-billboards-target-512x512_1.png",
       "themeColor": "#000000"
     },
-    "global_footer_custom": "<!-- Boei -->\n<script async defer src=\"https://cdn.boei.help/hello.js\"></script>\n<!-- End of Boei -->",
+    "global_footer_custom": "<!-- Boei -->\n<script async defer src=\"https://cdn.boei.help/hello.js\"></script>\n<!-- End of Boei -->\n\n<!-- ADA -->\n<script>!function(){function e(){var e=((new Date).getTime(),document.createElement(\"script\"));e.type=\"text/javascript\",e.async=!0,e.setAttribute(\"embed-id\",\"7e1ae021-9b0a-4f63-9d8a-5b18e76a5a6a\"),e.src=\"https://embed.adabundle.com/embed-scripts/7e1ae021-9b0a-4f63-9d8a-5b18e76a5a6a\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)}var t=window;t.attachEvent?t.attachEvent(\"onload\",e):t.addEventListener(\"load\",e,!1)}();</script>\n<!-- End of ADA -->",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "global_header_custom": "<!-- TF PowerPixel -->\n<script>\nvar TFConfig = {\n\"pixel_id\":\"076587-MK2W5V8-407597\"\n};\n</script>\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MK2W5V8\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script type=\"text/javascript\" defer src=\"https://trafficfuelpixel.s3-us-west-2.amazonaws.com/pixel.js\"></script>\n<noscript><iframe src=\"//my.trafficfuel.com/powerpixel.php?pixel_id=076587-MK2W5V8-407597\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MK2W5V8\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MK2W5V8');</script>\n<!-- End of TrafficFuel PowerPixel -->\n\n<!-- Quriobot -->\n<script type=\"text/javascript\">\n  if (!Array.isArray(window.qbOptions)) {\n    window.qbOptions = []\n  }\n  window.qbOptions.push({\"baseUrl\":\"https://botsrv2.com\",\"use\":\"vK8WdbwWYobJlzN5/YnoWjb4Mwam8lVax\"});\n</script>\n<script type=\"text/javascript\" src=\"https://static.botsrv2.com/website/js/widget2.75d4ea82.min.js\" integrity=\"sha384-s86P3mQ5cJDcJrB5sYTVUiNu3ZKVOcWHQSnZPNS7TZLBhbtRfSlLhpN06B5wRE7t\" crossorigin=\"anonymous\" defer data-no-minify=\"1\"></script>\n<!-- End of Quriobot -->",
     "cookiesAlert": false,
-    "global_after_body": "<!-- ADA -->\n<script>!function(){function e(){var e=((new Date).getTime(),document.createElement(\"script\"));e.type=\"text/javascript\",e.async=!0,e.setAttribute(\"embed-id\",\"7e1ae021-9b0a-4f63-9d8a-5b18e76a5a6a\"),e.src=\"https://embed.adabundle.com/embed-scripts/7e1ae021-9b0a-4f63-9d8a-5b18e76a5a6a\";var t=document.getElementsByTagName(\"script\")[0];t.parentNode.insertBefore(e,t)}var t=window;t.attachEvent?t.attachEvent(\"onload\",e):t.addEventListener(\"load\",e,!1)}();</script>\n<!-- End of ADA -->"
+    "global_after_body": ""
   },
   "pages": {
     "index.html": {
