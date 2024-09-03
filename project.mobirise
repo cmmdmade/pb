@@ -28,7 +28,7 @@
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "titlePreset": "Consulting Business",
       "nameSelectPreset": "consulting-business",
