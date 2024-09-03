@@ -2880,6 +2880,47 @@ a {
 .cid-unlbBgilYW .main-title DIV {
   text-align: center;
 }
+.cid-unlZUIF1su {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .cid-unlZUIF1su {
+    align-items: center;
+  }
+  .cid-unlZUIF1su .row {
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-unlZUIF1su .content-wrap {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-unlZUIF1su {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-unlZUIF1su .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-unlZUIF1su .content-wrap {
+    width: 100%;
+  }
+}
+.cid-unlZUIF1su .mbr-section-title {
+  text-align: center;
+  color: #000000;
+}
+.cid-unlZUIF1su .mbr-text,
+.cid-unlZUIF1su .mbr-section-btn {
+  text-align: center;
+  color: #000000;
+}
 .cid-unleKiZmdk {
   padding-top: 4rem;
   padding-bottom: 0rem;
