@@ -1364,7 +1364,7 @@ a {
 }
 .cid-unecH9XCQk {
   padding-top: 0rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   background-color: #ffffff;
 }
 .cid-unecH9XCQk .mbr-fallback-image.disabled {
@@ -1390,6 +1390,7 @@ a {
 }
 .cid-unecH9XCQk .mbr-title {
   color: #000000;
+  text-align: left;
 }
 .cid-unecH9XCQk .mbr-text {
   color: #000000;
@@ -1423,7 +1424,7 @@ a {
   height: 100%;
   min-height: 320px;
   padding: 40px 37px 30px;
-  background-color: #e2e2e2;
+  background-color: #f7f7f7;
 }
 @media (max-width: 767px) {
   .cid-unecH9XCQk .card-wrap {
