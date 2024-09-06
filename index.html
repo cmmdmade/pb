@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Instrument+Sans:400,500,600,700,400i,500i,600i,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Instrument+Sans:400,500,600,700,400i,500i,600i,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=NWeBUa"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=NWeBUa" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=42ePjn"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=42ePjn" type="text/css">
 
   
   
@@ -426,37 +426,37 @@
         
         <div class="row card-row justify-content-center">
             <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrap">
-                    <div class="testimonial-wrap">
+               <!--  <div class="card-wrap">
+                    <div class="testimonial-wrap" mbr-if="showCardIcon">
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                     </div>
-                    <p class="card-text mbr-fonts-style align-center display-4">
+                    <p class="card-text mbr-fonts-style align-center" mbr-theme-style="display-4" mbr-if="showCardText" data-app-selector=".card-text">
                         "Sed felis eget velit aliquet sagittis id
                         consectetur purus ut. Pretium vulputate sapien nec sagittis aliquam malesuada."
                     </p>
-                    <div class="card-name-wrap">
-                        <div class="card-name-image-wrap">
+                    <div class="card-name-wrap" mbr-if="showCardImg || showCardName || showCardProf">
+                        <div class="card-name-image-wrap" mbr-if="showCardImg">
                             <img src="assets/images/people1.jpg" alt="">
                         </div>
-                        <div class="card-name-text-wrap">
-                            <p class="card-name mbr-fonts-style mb-0 display-7">
+                        <div class="card-name-text-wrap" mbr-if="showCardName || showCardProf">
+                            <p class="card-name mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardName" data-app-selector=".card-name">
                                 Jacob Smith
                             </p>
-                            <p class="card-prof mbr-fonts-style mb-0 display-7">
+                            <p class="card-prof mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardProf" data-app-selector=".card-prof">
                                 Company Name
                             </p>
                         </div>
@@ -464,81 +464,82 @@
                 </div>
             </div>
 
-            <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card col-12 col-md-6 col-lg-4" mbr-if="cardCount > 1">
                 <div class="card-wrap">
-                    <div class="testimonial-wrap">
+                    <div class="testimonial-wrap" mbr-if="showCardIcon">
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                     </div>
-                    <p class="card-text mbr-fonts-style align-center display-4">
+                    <p class="card-text mbr-fonts-style align-center" mbr-theme-style="display-4" mbr-if="showCardText" data-app-selector=".card-text">
                         "Sagittis purus sit amet volutpat consequat mauris nunc congue. Sed egestas egestas fringilla
                         phasellus faucibus. "
                     </p>
-                    <div class="card-name-wrap">
-                        <div class="card-name-image-wrap">
+                    <div class="card-name-wrap" mbr-if="showCardImg || showCardName || showCardProf">
+                        <div class="card-name-image-wrap" mbr-if="showCardImg">
                             <img src="assets/images/people2.jpg" alt="">
                         </div>
-                        <div class="card-name-text-wrap">
-                            <p class="card-name mbr-fonts-style mb-0 display-7">
+                        <div class="card-name-text-wrap" mbr-if="showCardName || showCardProf">
+                            <p class="card-name mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardName" data-app-selector=".card-name">
                                 William Davis
                             </p>
-                            <p class="card-prof mbr-fonts-style mb-0 display-7">
+                            <p class="card-prof mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardProf" data-app-selector=".card-prof">
                                 Company Name
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card col-12 col-md-6 col-lg-4" mbr-if="cardCount > 2">
                 <div class="card-wrap">
-                    <div class="testimonial-wrap">
+                    <div class="testimonial-wrap" mbr-if="showCardIcon">
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                         <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
+                            <span mbr-icon class="mbr-iconfont mobi-mbri-star mobi-mbri"></span>
                         </div>
                     </div>
-                    <p class="card-text mbr-fonts-style align-center display-4">
+                    <p class="card-text mbr-fonts-style align-center" mbr-theme-style="display-4" mbr-if="showCardText" data-app-selector=".card-text">
                         "Cras fermentum odio eu feugiat pretium. Ut venenatis tellus in metus vulputate eu. Proin sed
                         libero enim sed faucibus turpis. "
                     </p>
-                    <div class="card-name-wrap">
-                        <div class="card-name-image-wrap">
+                    <div class="card-name-wrap" mbr-if="showCardImg || showCardName || showCardProf">
+                        <div class="card-name-image-wrap" mbr-if="showCardImg">
                             <img src="assets/images/people3.jpg" alt="">
                         </div>
-                        <div class="card-name-text-wrap">
-                            <p class="card-name mbr-fonts-style mb-0 display-7">
+                        <div class="card-name-text-wrap" mbr-if="showCardName || showCardProf">
+                            <p class="card-name mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardName" data-app-selector=".card-name">
                                 Alexander Johnson
                             </p>
-                            <p class="card-prof mbr-fonts-style mb-0 display-7">
+                            <p class="card-prof mbr-fonts-style mb-0" mbr-theme-style="display-7" mbr-if="showCardProf" data-app-selector=".card-prof">
                                 Company Name
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                <iframe id="socialjuice-carousel-crossmediamarketingdeveloper-180" src="https://embed.socialjuice.io/carousel/587?s=crossmediamarketingdeveloper" allowfullscreen="" allowtransparency="true" frameborder="0" scrolling="no" width="100%" height="380px"></iframe>
             </div>
 
             
@@ -577,7 +578,7 @@
           <div class="form-container">
             <div class="col-12 mbr-form" data-form-type="formoid">
               <!--Formbuilder Form-->
-              <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="gHPUBozHLid2Czp/ZbIwTvWFxFjehbUsOPM59VFvLOfCsnJpFj4dxmS5lBGEpOSj/SYdai1wAw2LqHn8nPcSH/m2YtD+YlbMC/Dh7s3WLA6uDXHzVWJtQLHzVksjBGo/.OpL2F7q+E6yH9BKr46ncUHx0g8sDlBSt8BdINUzFz92wTTX67M1bfipHvqIAw5WOt+ZZefp0D0CsosOi/UIS+wz4TwmGNjVfAC/4pPw4riSE2X/G3mFLyrACkFRwx1T2">
+              <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="7x+5u+C+lPXho9p0tFMXwFU06bF3e0FpMI+TaZSbuNKG9Oz491crW6H3zjOiXvuDb2ILLvvzUAxzaIAFeqCHr6Qbhr0QdrL4UNUvqZ95dFrK2uXo1L852Ojm9PI6gSnx.Pfaqey3Soaf7sCtiWJqgvmTMjMq8ToUtqBSoq5Kxb6irTbaVfTwDJlunQfpVX710lcDpL0jkUkN9+MZennbGWphRKlk/C7GODgVVub8G6XPoBM3y20CmJDqgajpvzC2f">
                 <div class="row">
                   <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the
                     form!</div>
