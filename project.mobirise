@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "business-presence-optimization.html",
     "theme": {
       "name": "ascentm5",
       "title": "AscentM5",
@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 122,
+    "uniqCompNum": 133,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -1686,9 +1686,79 @@
           "_params": {}
         },
         {
+          "_name": "afeatures3",
+          "_sourceTheme": "factm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 factm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"color\" title=\"Label Border Color\" name=\"labelBorderColor\" value=\"#c9c9c9\" condition=\"showLabel\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#4f6df5\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f1f1f1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"label-container\" mbr-if=\"showLabel\">\n                    <p class=\"label-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".label-text\">\n                        Stay in Touch\n                    </p>\n                </div>\n                <h4 class=\"mbr-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\"><b>Innovate your lead generation efforts with location-based marketing solutions that respond to, capture leads from, and advertises to consumers within proximity of your business and beyond.</b></h4>\n                <h4 class=\"mbr-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-subtitle\">\n                    Egestas diam in arcu cursus\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    <a href=\"#\" class=\"text-black\">\n                        View More\n                    </a>\n                </p>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".label-container": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "max-content",
+              "max-width": "100%",
+              "padding": "6px 13px",
+              "border": "1px solid @labelBorderColor",
+              "margin": "0 auto",
+              "border-radius": "4px"
+            },
+            ".label-text": {
+              "color": "#747474"
+            },
+            ".mbr-title": {
+              "margin-top": "30px",
+              "color": "#ffffff",
+              "&.display-2": {
+                "@media (min-width: 992px)": {
+                  "font-size": "6vw"
+                }
+              }
+            },
+            ".mbr-subtitle": {
+              "margin-top": "40px",
+              "color": "#747474",
+              "@media (max-width: 991px)": {
+                "margin-top": "30px"
+              }
+            },
+            ".mbr-text": {
+              "margin-top": "30px",
+              "color": "#000000"
+            }
+          },
+          "_cid": "unMcEcZHAe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "afeatures3-3g"
+        },
+        {
           "_name": "pricing3",
           "_sourceTheme": "talkm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"talkm5 pricing3\" group=\"Pricing\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n  'mbr-fullscreen': fullScreen,\n  'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n    <select title=\"Columns\" name=\"columns\">\n      <option value=\"12\">1</option>\n      <option value=\"6\" selected>2</option>\n      <option value=\"4\">3</option>\n      <option value=\"3\">4</option>\n    </select>\n    <header>Image</header>\n    <input type=\"image\" name=\"cardimg\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg\">\n\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/talkm5/components/_images/background2.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/talkm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"item features-without-image col-12 col-md-12 col-lg-{{columns}}\">\n        <div class=\"card-wrapper image item-wrapper align-left\">\n          <div class=\"card-company-row\">\n            <h4 class=\"card-company-name tag1 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-company-name\">QUARTERLY</h4>\n            <h4 class=\"card-company-name mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-company-name\">$1999</h4>\n          </div>\n\n          <div class=\"content\">\n            <h1 class=\"mbr-section-title mbr-fonts-style \" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n\n\n          </div>\n\n\n\n\n        </div>\n      </div>\n      <div class=\"item features-without-image col-12 col-md-12 col-lg-{{columns}}\">\n        <div class=\"card-wrapper item-wrapper align-left\">\n\n\n          <div class=\"content\">\n\n            <ul mbr-text class=\"mbr-text align-left mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n              <li><b>BUSINESS ELITE QUARTERLY w/ NO SETUP FEES</b></li>\n              <li>• Advanced GBP generative optimization + metadata updates</li>\n              <li>• (10) SGE-optimized posts</li>\n              <li>• Monthly reporting (performance, MATCH AND MIRROR competitor analysis, etc.)</li>\n            <li>• (1) Paid Web Traffic Retargeting Campaign</li><li>• (1) TBA Campaign</li><li>• [Enhancement Service] Reviews Request Management - Collection management of unlimited reviews from your place of business.</li><li>• [Enhancement Service] Social Media Reviews Showcase - Highlight design-enhanced Google Business Profile reviews to your social media platforms.</li></ul>\n\n          </div>\n\n          <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>CONSULT &amp; SUBSCRIBE</a></div>\n\n\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"talkm5 pricing3\" group=\"Pricing\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n  'mbr-fullscreen': fullScreen,\n  'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n    <select title=\"Columns\" name=\"columns\">\n      <option value=\"12\">1</option>\n      <option value=\"6\" selected>2</option>\n      <option value=\"4\">3</option>\n      <option value=\"3\">4</option>\n    </select>\n    <header>Image</header>\n    <input type=\"image\" name=\"cardimg\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg\">\n\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/talkm5/components/_images/background2.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/talkm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"item features-without-image col-12 col-md-12 col-lg-{{columns}}\">\n        <div class=\"card-wrapper image item-wrapper align-left\">\n          <div class=\"card-company-row\">\n            <h4 class=\"card-company-name tag1 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-company-name\">QUARTERLY</h4>\n            <h4 class=\"card-company-name mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-company-name\">$1999</h4>\n          </div>\n\n          <div class=\"content\">\n            <h1 class=\"mbr-section-title mbr-fonts-style \" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n\n\n          </div>\n\n\n\n\n        </div>\n      </div>\n      <div class=\"item features-without-image col-12 col-md-12 col-lg-{{columns}}\">\n        <div class=\"card-wrapper item-wrapper align-left\">\n\n\n          <div class=\"content\">\n\n            <ul mbr-text class=\"mbr-text align-left mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n              <li><b>BUSINESS ELITE QUARTERLY w/ NO SETUP FEES</b></li>\n              <li>• Advanced GBP generative optimization + metadata updates</li>\n              <li>• (10) SGE-optimized posts</li>\n              <li>• Monthly reporting (performance, MATCH AND MIRROR competitor analysis, etc.)</li>\n            <li>• (1) Paid Web Traffic Retargeting Campaign</li><li>• (1) TBA Campaign</li><li>• [Enhancement Service] Reviews Request Management - Collection management of unlimited reviews from your place of business.</li><li>• [Enhancement Service] Social Media Reviews Showcase - Highlight design-enhanced Google Business Profile reviews to your social media platforms.</li></ul>\n\n          </div>\n\n          <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>CONSULT &amp; SUBSCRIBE</a></div>\n\n\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
