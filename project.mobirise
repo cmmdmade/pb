@@ -34,7 +34,13 @@
       "nameSelectPreset": "consulting-business",
       "presetSourceTheme": "ascentm5",
       "additionalSetColors": [
-        "#4f6df5"
+        "#4f6df5",
+        "#262642",
+        "#f0f0f0",
+        "#4285f4",
+        "#db4437",
+        "#f4b400",
+        "#0f9d58"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -48,7 +54,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 133,
+    "uniqCompNum": 147,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -1690,7 +1696,7 @@
         {
           "_name": "afeatures3",
           "_sourceTheme": "factm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 factm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"color\" title=\"Label Border Color\" name=\"labelBorderColor\" value=\"#c9c9c9\" condition=\"showLabel\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#4f6df5\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f1f1f1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"label-container\" mbr-if=\"showLabel\">\n                    <p class=\"label-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".label-text\">\n                        Stay in Touch\n                    </p>\n                </div>\n                <h4 class=\"mbr-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\"><b>Innovate your lead generation efforts with location-based marketing solutions that respond to, capture leads from, and advertises to consumers within proximity of your business and beyond.</b></h4>\n                <h4 class=\"mbr-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-subtitle\">\n                    Egestas diam in arcu cursus\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    <a href=\"#\" class=\"text-black\">\n                        View More\n                    </a>\n                </p>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3 factm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\">\n        <input type=\"color\" title=\"Label Border Color\" name=\"labelBorderColor\" value=\"#c9c9c9\" condition=\"showLabel\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#4f6df5\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/factm5/components/_images/background3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f1f1f1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"label-container\" mbr-if=\"showLabel\">\n                    <p class=\"label-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".label-text\">\n                        Stay in Touch\n                    </p>\n                </div>\n                <h4 class=\"mbr-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\"><b>Innovate your lead generation efforts with location-based marketing solutions that respond to, capture leads from, and advertises to consumers within proximity of your business and beyond.</b></h4>\n                <h4 class=\"mbr-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-subtitle\">\n                    Egestas diam in arcu cursus\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    <a href=\"#\" class=\"text-black\">\n                        View More\n                    </a>\n                </p>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -1889,6 +1895,214 @@
           "_anchor": "pricing3-2r",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "slider02",
+          "_sourceTheme": "resumem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider02 mbr-embla resumem5\" group=\"Sliders & Galleries\" plugins=\"embla\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text 1\" name=\"showText_1\">\n        <input type=\"checkbox\" title=\"Text 2\" name=\"showText_2\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"3\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\">\n        <input type=\"color\" title=\"Border Color\" value=\"#333333\" name=\"border\" condition=\"showBorder\" selected>\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\">\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\" checked>\n        <input type=\"color\" title=\"Border Color 1\" value=\"#0f9d58\" name=\"border_1\" selected>\n        <input type=\"color\" title=\"Border Color 2\" value=\"#4285f4\" name=\"border_2\" selected>\n        <input type=\"color\" title=\"Border Color 3\" value=\"#f4b400\" name=\"border_3\" selected>\n        <input type=\"color\" title=\"Border Color 4\" value=\"#db4437\" name=\"border_4\" selected>\n        <input type=\"color\" title=\"Card BG\" value=\"#ffffff\" name=\"card\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax required>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/resumem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f0f0f0\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        Graphic design\n                    </h2>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5\">\n                <div class=\"text-wrapper\" mbr-if=\"showText_1\">\n                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText_1\">\n                        The stages of graphic design typically encompass a series of steps.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5\">\n                <div class=\"text-wrapper\" mbr-if=\"showText_2\">\n                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText_2\">\n                        While the specific stages may vary depending on the designer or project.\n                    </p>\n                </div>\n            </div>\n            <div class=\"col-12\">\n                <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n                    <div class=\"embla__viewport\">\n                        <div class=\"embla__container\">\n                            <div class=\"embla__slide features-without-image slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <div class=\"item-wrapper\">\n                                        <div class=\"card-box\">\n                                            <h4 class=\"card-title mbr-fonts-style\" data-app-selector=\".card-title\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\">\n                                                Briefing and Research\n                                            </h4>\n                                            <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\"><b>Customer Engagement:</b> Over 64% of consumers use Google Business Profiles to find contact information for a local business, making it a critical tool for engaging with potential customers directly through Google Search and Maps.\n                                            </p>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div><div class=\"embla__slide features-without-image slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <div class=\"item-wrapper\">\n                                        <div class=\"card-box\">\n                                            <h4 class=\"card-title mbr-fonts-style\" data-app-selector=\".card-title\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\">\n                                                Briefing and Research\n                                            </h4>\n                                            <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\"><b>Impact on Business Revenue:</b> Businesses that complete their Google Business Profile are 2.7 times more likely to be considered reputable by consumers, which can lead to a significant increase in customer trust and, subsequently, revenue.\n                                            </p>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"embla__slide features-without-image slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <div class=\"item-wrapper\">\n                                        <div class=\"card-box\">\n                                            <h4 class=\"card-title mbr-fonts-style\" data-app-selector=\".card-title\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\">\n                                                Conceptualization\n                                            </h4>\n                                            <p class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\"><b>Search Visibility:</b> Businesses with a Google Business Profile receive 7 times more clicks than businesses without one, highlighting the importance of having an optimized profile to boost online visibility and attract more customers.\n                                            </p>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            \n                            \n                            \n                        </div>\n                    </div>\n                    <button class=\"embla__button embla__button--prev\">\n                        <span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden visually-hidden visually-hidden\">Previous</span>\n                    </button>\n                    <button class=\"embla__button embla__button--next\">\n                        <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only visually-hidden visually-hidden visually-hidden\">Next</span>\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 64px",
+                "@media (max-width: 1440px)": {
+                  "padding": "0 36px"
+                },
+                "@media (max-width: 992px)": {
+                  "padding": "0 16px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0 16px"
+              }
+            },
+            ".row": {
+              "justify-content": "space-between"
+            },
+            ".title-wrapper": {
+              ".mbr-section-title": {
+                "margin-bottom": "48px",
+                "@media (max-width: 992px)": {
+                  "margin-bottom": "36px"
+                }
+              }
+            },
+            ".text-wrapper": {
+              ".mbr-text": {
+                "margin-bottom": "0",
+                "@media (max-width: 992px)": {
+                  "margin-bottom": "24px"
+                }
+              }
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "1000px",
+              "max-width": "1000px",
+              "@media (max-width: 1200px)": {
+                "min-width": "650px",
+                "max-width": "650px"
+              },
+              "@media (max-width: 767px)": {
+                "min-width": "100%",
+                "max-width": "100%"
+              },
+              ".slide-content": {
+                "width": "100%",
+                ".item-wrapper": {
+                  "background-image": "linear-gradient(135deg, @border_1, @border_2 34%, @border_3 67%, @border_4) !important",
+                  "border-radius": "2em !important",
+                  "padding": "5px",
+                  "height": "100%",
+                  ".card-box": {
+                    "border-radius": "1.9em",
+                    "background-color": "@card",
+                    "padding": "36px",
+                    "height": "100%",
+                    "@media (max-width: 992px)": {
+                      "padding": "16px"
+                    },
+                    ".card-title": {
+                      "margin-bottom": "32px"
+                    },
+                    ".card-text": {
+                      "margin-bottom": "0"
+                    }
+                  }
+                }
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button": {
+              "bottom": "0",
+              "width": "32px",
+              "height": "32px",
+              "margin-top": "-1.5rem",
+              "font-size": "26px",
+              "background-color": "transparent !important",
+              "color": "@primaryColor !important",
+              "border": "none",
+              "border-radius": "0",
+              "transition": "all 0.3s",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "opacity": "1 !important",
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&:hover": {
+                "color": "@successColor !important"
+              },
+              "&.embla__button--prev": {
+                "right": "6rem"
+              },
+              "&.embla__button--next": {
+                "right": "0"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%",
+              "& when (@arrows)": {
+                "padding-bottom": "80px",
+                "@media (max-width: 992px)": {
+                  "padding-bottom": "36px"
+                }
+              },
+              "& when (@showTitle)": {
+                "margin-top": "80px",
+                "@media (max-width: 992px)": {
+                  "margin-top": "36px"
+                }
+              },
+              "& when (@showText_1)": {
+                "margin-top": "80px",
+                "@media (max-width: 992px)": {
+                  "margin-top": "36px"
+                }
+              },
+              "& when (@showText_2)": {
+                "margin-top": "80px",
+                "@media (max-width: 992px)": {
+                  "margin-top": "36px"
+                }
+              }
+            },
+            ".embla__viewport": {
+              "overflow": "visible",
+              "width": "100%",
+              "margin-right": "1rem",
+              "& when (@showBorder)": {
+                "border-top": "4px solid @border",
+                "padding-top": "80px",
+                "@media (max-width: 992px)": {
+                  "padding-top": "48px"
+                }
+              }
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            },
+            ".mbr-section-title": {
+              "color": "#080808"
+            },
+            ".mbr-text": {
+              "color": "#333333"
+            },
+            ".card-title": {
+              "color": "#080808"
+            },
+            ".card-text": {
+              "color": "#333333"
+            }
+          },
+          "_cid": "unToyy0hDU",
+          "_anchor": "slider02-3w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

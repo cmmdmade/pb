@@ -2149,8 +2149,8 @@ a {
   color: #000000;
 }
 .cid-unMcEcZHAe {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   background-color: #4f6df5;
 }
 .cid-unMcEcZHAe .mbr-fallback-image.disabled {
@@ -2319,6 +2319,168 @@ a {
 .cid-unFPPiK82R .mbr-section-btn {
   color: #221b35;
   text-align: left;
+}
+.cid-unToyy0hDU {
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.cid-unToyy0hDU .container-fluid {
+  padding: 0 64px;
+}
+@media (max-width: 1440px) {
+  .cid-unToyy0hDU .container-fluid {
+    padding: 0 36px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .container-fluid {
+    padding: 0 16px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .container {
+    padding: 0 16px;
+  }
+}
+.cid-unToyy0hDU .row {
+  justify-content: space-between;
+}
+.cid-unToyy0hDU .title-wrapper .mbr-section-title {
+  margin-bottom: 48px;
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .title-wrapper .mbr-section-title {
+    margin-bottom: 36px;
+  }
+}
+.cid-unToyy0hDU .text-wrapper .mbr-text {
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .text-wrapper .mbr-text {
+    margin-bottom: 24px;
+  }
+}
+.cid-unToyy0hDU .embla__slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 1000px;
+  max-width: 1000px;
+}
+@media (max-width: 1200px) {
+  .cid-unToyy0hDU .embla__slide {
+    min-width: 650px;
+    max-width: 650px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-unToyy0hDU .embla__slide {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+.cid-unToyy0hDU .embla__slide .slide-content {
+  width: 100%;
+}
+.cid-unToyy0hDU .embla__slide .slide-content .item-wrapper {
+  background-image: linear-gradient(135deg, #0f9d58, #4285f4 34%, #f4b400 67%, #db4437) !important;
+  border-radius: 2em !important;
+  padding: 5px;
+  height: 100%;
+}
+.cid-unToyy0hDU .embla__slide .slide-content .item-wrapper .card-box {
+  border-radius: 1.9em;
+  background-color: #ffffff;
+  padding: 36px;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .embla__slide .slide-content .item-wrapper .card-box {
+    padding: 16px;
+  }
+}
+.cid-unToyy0hDU .embla__slide .slide-content .item-wrapper .card-box .card-title {
+  margin-bottom: 32px;
+}
+.cid-unToyy0hDU .embla__slide .slide-content .item-wrapper .card-box .card-text {
+  margin-bottom: 0;
+}
+.cid-unToyy0hDU .embla__button--next,
+.cid-unToyy0hDU .embla__button--prev {
+  display: flex;
+}
+.cid-unToyy0hDU .embla__button {
+  bottom: 0;
+  width: 32px;
+  height: 32px;
+  margin-top: -1.5rem;
+  font-size: 26px;
+  background-color: transparent !important;
+  color: #bed2f5 !important;
+  border: none;
+  border-radius: 0;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+}
+.cid-unToyy0hDU .embla__button:disabled {
+  cursor: default;
+  display: none;
+}
+.cid-unToyy0hDU .embla__button:hover {
+  color: #3a341c !important;
+}
+.cid-unToyy0hDU .embla__button.embla__button--prev {
+  right: 6rem;
+}
+.cid-unToyy0hDU .embla__button.embla__button--next {
+  right: 0;
+}
+.cid-unToyy0hDU .embla {
+  position: relative;
+  width: 100%;
+  padding-bottom: 80px;
+}
+@media (max-width: 992px) {
+  .cid-unToyy0hDU .embla {
+    padding-bottom: 36px;
+  }
+}
+.cid-unToyy0hDU .embla__viewport {
+  overflow: visible;
+  width: 100%;
+  margin-right: 1rem;
+}
+.cid-unToyy0hDU .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-unToyy0hDU .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-unToyy0hDU .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cid-unToyy0hDU .mbr-section-title {
+  color: #080808;
+}
+.cid-unToyy0hDU .mbr-text {
+  color: #333333;
+}
+.cid-unToyy0hDU .card-title {
+  color: #080808;
+}
+.cid-unToyy0hDU .card-text {
+  color: #333333;
 }
 .cid-ungLfd8Mze {
   padding-top: 0rem;
