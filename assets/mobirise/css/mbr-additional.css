@@ -47,11 +47,11 @@ body {
 }
 .display-5 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.125rem;
+  font-size: 2.875rem;
 }
 .display-7 {
   font-family: 'Poppins', sans-serif;
@@ -88,9 +88,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.84rem;
+    font-size: calc( 1.455rem + (2.3 - 1.455) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.455rem + (2.3 - 1.455) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 1.12rem;
@@ -728,7 +728,7 @@ a {
 .cid-usTcJQVfaC {
   display: flex;
   padding-top: 225px;
-  padding-bottom: 225px;
+  padding-bottom: 105px;
   background: linear-gradient(to bottom, #4f6df5, #ffffff);
 }
 @media (min-width: 768px) {
