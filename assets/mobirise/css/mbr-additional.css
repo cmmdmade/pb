@@ -728,7 +728,7 @@ a {
 .cid-usTcJQVfaC {
   display: flex;
   padding-top: 60px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background: linear-gradient(to bottom, #4f6df5, #ffffff);
 }
 @media (min-width: 768px) {
@@ -755,18 +755,7 @@ a {
 .cid-usTcJQVfaC h2 {
   position: relative;
   width: fit-content;
-  padding-left: 35px;
   display: inline-block;
-}
-.cid-usTcJQVfaC h2:before {
-  content: '';
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: currentColor;
-  position: absolute;
-  left: 10px;
-  top: calc(50% - 6px);
 }
 .cid-usTcJQVfaC .mbr-section-subtitle,
 .cid-usTcJQVfaC .align {
