@@ -34,13 +34,13 @@
       "nameSelectPreset": "consulting-business",
       "presetSourceTheme": "ascentm5",
       "additionalSetColors": [
+        "#404040",
         "#f8f8f8",
         "#4f6df5",
         "#262642",
         "#f0f0f0",
         "#4285f4",
-        "#db4437",
-        "#f4b400"
+        "#db4437"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -112,7 +112,7 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "left",
-              "color": "#f8f8f8"
+              "color": "#404040"
             },
             ".mbr-section-title, .line": {
               "color": "#232323"
