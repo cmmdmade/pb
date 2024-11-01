@@ -67,7 +67,7 @@
     "uniqCompNum": 215,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "favicon": "@PROJECT_PATH@/assets/images/1711904453-png4-128x102.png",
     "mbrsiteDomain": "pbm-v4",
     "usedWebp": false,
