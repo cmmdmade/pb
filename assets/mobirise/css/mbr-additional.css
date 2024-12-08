@@ -869,7 +869,7 @@ a {
 .cid-uwctSchRL1 .content-wrapper {
   border-radius: 40px;
   background-color: #f3f4f7;
-  padding: 64px;
+  padding: 110px;
 }
 @media (max-width: 992px) {
   .cid-uwctSchRL1 .content-wrapper {
@@ -909,15 +909,15 @@ a {
   top: 0;
 }
 .cid-uwclNKrbj4 .content-wrapper {
-  padding: 115px 80px;
+  padding: 110px 80px;
   background-color: #f3f4f7;
-  border-radius: 6rem;
+  border-radius: 2rem;
   justify-content: center;
   overflow: hidden;
 }
 @media (max-width: 1200px) {
   .cid-uwclNKrbj4 .content-wrapper {
-    padding: 115px 40px;
+    padding: 110px 40px;
   }
 }
 @media (max-width: 992px) {
