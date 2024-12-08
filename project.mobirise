@@ -85,9 +85,9 @@
       "settings": {
         "main": true,
         "title": "Crowd Attention Studio",
-        "meta_descr": "Innovate lead generation efforts with location-based marketing solutions that respond to, capture leads from, and advertises to consumers within proximity of your business and beyond.",
+        "meta_descr": "Capture and convert leads through location-based digital strategies that engage consumers near your business and extend your reach far beyond.",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script src=\"https://app.boei.help/embed/k/54dd9bef-8ac5-4e14-8ea1-7a2edde3618a\" async></script>",
         "html_before": ""
       },
       "components": [
