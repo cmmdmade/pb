@@ -68,7 +68,7 @@
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "publishChangesOnly": false,
-    "favicon": "@PROJECT_PATH@/assets/images/gmb-favicon-main-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/target-group-655x-128x128.png",
     "mbrsiteDomain": "cas-v1",
     "usedWebp": true,
     "cssOptimize": true,
