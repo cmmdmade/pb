@@ -775,7 +775,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 16px;
-  background-image: linear-gradient(0.251turn, #f3f4f7 37%, transparent 100%);
+  background-image: linear-gradient(0.251turn, #ddddde 37%, transparent 100%);
   pointer-events: none;
   z-index: 1;
 }
