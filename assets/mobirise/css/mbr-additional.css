@@ -159,9 +159,9 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #edefeb !important;
-  border-color: #edefeb !important;
-  color: #6e7a61 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
   box-shadow: none;
 }
 .btn-secondary:hover,
@@ -175,7 +175,7 @@ body {
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #6e7a61 !important;
+  color: #808080 !important;
   background-color: #ffffff !important;
   border-color: #ffffff !important;
 }
@@ -335,23 +335,23 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: #edefeb;
-  color: #edefeb;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #c2c8bb !important;
+  color: #d4d4d4 !important;
   background-color: transparent !important;
-  border-color: #c2c8bb !important;
+  border-color: #d4d4d4 !important;
   box-shadow: none !important;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #6e7a61 !important;
-  background-color: #edefeb !important;
-  border-color: #edefeb !important;
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -483,7 +483,7 @@ body {
   color: #4f6df5 !important;
 }
 .text-secondary {
-  color: #edefeb !important;
+  color: #ffffff !important;
 }
 .text-success {
   color: #3a341c !important;
@@ -511,7 +511,7 @@ a.text-primary.active {
 a.text-secondary:hover,
 a.text-secondary:focus,
 a.text-secondary.active {
-  color: #bac2b2 !important;
+  color: #cccccc !important;
 }
 a.text-success:hover,
 a.text-success:focus,
@@ -689,7 +689,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #edefeb !important;
+  background: #ffffff !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -1035,7 +1035,7 @@ a {
 }
 .cid-uDVkApFIBj .row {
   justify-content: space-between;
-  background: linear-gradient(to top, #4f6df5, #edefeb);
+  background: linear-gradient(to top, #4f6df5, #ffffff);
   border-radius: 4rem;
   padding: 2rem;
   padding-top: 450px !important;
