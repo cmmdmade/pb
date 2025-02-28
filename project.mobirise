@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "bab.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "ascentm5",
       "title": "AscentM5",
@@ -96,7 +96,8 @@
       "name": "",
       "icon": "@PROJECT_PATH@/assets/images/cas-v1-512x512.png",
       "themeColor": "#4f6df5"
-    }
+    },
+    "global_footer_custom": "<script> !function(){function e(){var e=((new Date).getTime(),document.createElement(\"script\"));e.type=\"text/javascript\",e.async=!0,e.setAttribute(\"embed-id\",\"0529c7eb-67a8-4228-96e5-054238b8c2ff\"),e.src=\"https://embed.adabundle.com/embed-scripts/0529c7eb-67a8-4228-96e5-054238b8c2ff\",window.top.document.getElementsByTagName(\"body\")[0].appendChild(e)}var t=window;t.attachEvent?t.attachEvent(\"onload\",e):t.addEventListener(\"load\",e,!1)}();</script>"
   },
   "pages": {
     "index.html": {
