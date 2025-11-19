@@ -67,7 +67,7 @@
     "uniqCompNum": 312,
     "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "favicon": "@PROJECT_PATH@/assets/images/pa-hexagon-logo-128x128.png",
     "mbrsiteDomain": "cas-v1",
     "usedWebp": true,
