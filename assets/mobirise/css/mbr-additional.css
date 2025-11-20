@@ -726,8 +726,8 @@ a {
   transition: color 0.6s;
 }
 .cid-v2V05x9xeP {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #ffffff;
 }
 .cid-v2V05x9xeP .mbr-fallback-image.disabled {
@@ -1104,7 +1104,7 @@ a {
   text-align: left;
 }
 .cid-v2UBKp00b9 {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 4rem;
   background-color: #ffffff;
 }
@@ -1380,6 +1380,61 @@ a {
 .cid-uneaqyyUgo .item .mbr-section-btn {
   color: #ffffff;
   text-align: left;
+}
+.cid-v33beG8Jcf {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-v33beG8Jcf .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v33beG8Jcf .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v33beG8Jcf .media-container-row {
+  justify-content: space-between;
+}
+.cid-v33beG8Jcf .text-content {
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+  .cid-v33beG8Jcf .text-content {
+    max-width: none;
+  }
+}
+.cid-v33beG8Jcf .mbr-iconfont-social {
+  margin: 0.5rem;
+  font-size: 32px;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #4f6df5;
+  border: 2px solid #4f6df5;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-v33beG8Jcf .mbr-iconfont-social:before {
+  padding: 0.6rem;
+}
+.cid-v33beG8Jcf .mbr-iconfont-social:hover {
+  background-color: #4f6df5;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .cid-v33beG8Jcf .icons {
+    justify-content: center !important;
+  }
+  .cid-v33beG8Jcf .text-content * {
+    text-align: center;
+  }
 }
 .cid-v2UZAlCMeo {
   padding-top: 2rem;
