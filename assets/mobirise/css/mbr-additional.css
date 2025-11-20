@@ -725,6 +725,11 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-v2V05x9xeP {
   padding-top: 5rem;
   padding-bottom: 5rem;
