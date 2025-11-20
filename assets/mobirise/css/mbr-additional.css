@@ -1216,6 +1216,61 @@ a {
   text-align: left;
   color: #ffffff;
 }
+.cid-v33beG8Jcf {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-v33beG8Jcf .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v33beG8Jcf .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-v33beG8Jcf .media-container-row {
+  justify-content: space-between;
+}
+.cid-v33beG8Jcf .text-content {
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+  .cid-v33beG8Jcf .text-content {
+    max-width: none;
+  }
+}
+.cid-v33beG8Jcf .mbr-iconfont-social {
+  margin: 0.5rem;
+  font-size: 32px;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #4f6df5;
+  border: 2px solid #4f6df5;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-v33beG8Jcf .mbr-iconfont-social:before {
+  padding: 0.6rem;
+}
+.cid-v33beG8Jcf .mbr-iconfont-social:hover {
+  background-color: #4f6df5;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .cid-v33beG8Jcf .icons {
+    justify-content: center !important;
+  }
+  .cid-v33beG8Jcf .text-content * {
+    text-align: center;
+  }
+}
 .cid-uneaqyyUgo {
   padding-top: 0rem;
   padding-bottom: 4rem;
@@ -1385,61 +1440,6 @@ a {
 .cid-uneaqyyUgo .item .mbr-section-btn {
   color: #ffffff;
   text-align: left;
-}
-.cid-v33beG8Jcf {
-  padding-top: 15px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-v33beG8Jcf .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v33beG8Jcf .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-v33beG8Jcf .media-container-row {
-  justify-content: space-between;
-}
-.cid-v33beG8Jcf .text-content {
-  max-width: 50%;
-}
-@media (max-width: 768px) {
-  .cid-v33beG8Jcf .text-content {
-    max-width: none;
-  }
-}
-.cid-v33beG8Jcf .mbr-iconfont-social {
-  margin: 0.5rem;
-  font-size: 32px;
-  display: flex;
-  border-radius: 50%;
-  text-align: center;
-  color: #4f6df5;
-  border: 2px solid #4f6df5;
-  justify-content: center;
-  align-content: center;
-  transition: all 0.3s;
-}
-.cid-v33beG8Jcf .mbr-iconfont-social:before {
-  padding: 0.6rem;
-}
-.cid-v33beG8Jcf .mbr-iconfont-social:hover {
-  background-color: #4f6df5;
-  color: #ffffff;
-}
-@media (max-width: 768px) {
-  .cid-v33beG8Jcf .icons {
-    justify-content: center !important;
-  }
-  .cid-v33beG8Jcf .text-content * {
-    text-align: center;
-  }
 }
 .cid-v33ml06V3m {
   padding-top: 2rem;
