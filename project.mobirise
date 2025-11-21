@@ -204,7 +204,7 @@
               "color": "#000000"
             },
             ".mbr-number": {
-              "color": "#bff747"
+              "color": "#4f6df5"
             },
             ".card-text, .item .mbr-section-btn": {
               "color": "#fdfde1"
