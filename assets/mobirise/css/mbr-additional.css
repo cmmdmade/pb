@@ -730,15 +730,15 @@ a {
   outline-offset: 2px !important;
   transition: outline 0.2s ease-in-out;
 }
-.cid-v2V05x9xeP {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+.cid-v3d2DjuAve {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-v2V05x9xeP .mbr-fallback-image.disabled {
+.cid-v3d2DjuAve .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v2V05x9xeP .mbr-fallback-image {
+.cid-v3d2DjuAve .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -747,33 +747,62 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-v2V05x9xeP .image-wrapper {
-    margin-bottom: 1rem;
+@media (max-width: 992px) {
+  .cid-v3d2DjuAve .mbr-figure {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
-.cid-v2V05x9xeP .row {
-  flex-direction: row-reverse;
-}
-.cid-v2V05x9xeP .row {
+.cid-v3d2DjuAve .row {
   align-items: center;
 }
-@media (max-width: 991px) {
-  .cid-v2V05x9xeP .image-wrapper {
-    padding: 1rem;
-  }
-}
 @media (min-width: 992px) {
-  .cid-v2V05x9xeP .text-wrapper {
+  .cid-v3d2DjuAve .text-wrapper {
     padding: 0 2rem;
   }
 }
-.cid-v2V05x9xeP .mbr-section-title {
+.cid-v3d2DjuAve .text-wrapper .mbr-card-title {
+  margin-bottom: 0.5rem;
+}
+.cid-v3d2DjuAve .text-wrapper .py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.cid-v3d2DjuAve .text-wrapper .pb-4 {
+  padding-bottom: 1.5rem !important;
+}
+.cid-v3d2DjuAve .text-wrapper .pt-4 {
+  padding-top: 1.5rem !important;
+}
+.cid-v3d2DjuAve .text-wrapper .mbr-figure iframe {
+  width: 100%;
+  overflow: hidden;
+}
+.cid-v3d2DjuAve .media-content,
+.cid-v3d2DjuAve .mbr-figure {
+  align-self: center;
+}
+.cid-v3d2DjuAve .mbr-figure {
+  overflow: hidden;
+}
+.cid-v3d2DjuAve .card {
+  background-color: #000000;
+}
+.cid-v3d2DjuAve .icon-title {
+  color: #bff747;
+}
+.cid-v3d2DjuAve .mbr-text {
   color: #000000;
 }
-.cid-v2V05x9xeP .mbr-text,
-.cid-v2V05x9xeP .mbr-section-btn {
-  color: #232323;
+.cid-v3d2DjuAve .mbr-number {
+  color: #bff747;
+}
+.cid-v3d2DjuAve .card-text,
+.cid-v3d2DjuAve .item .mbr-section-btn {
+  color: #fdfde1;
+}
+.cid-v3d2DjuAve .mbr-section-title {
+  color: #000000;
 }
 .cid-uwQgs7Y7Af {
   padding-top: 0rem;
