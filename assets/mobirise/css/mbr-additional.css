@@ -731,18 +731,6 @@ a {
   padding-bottom: 2rem;
   background-color: #ffffff;
 }
-.cid-v3dbZqfihi .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-v3dbZqfihi .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
 .cid-v3dbZqfihi .mbr-section-head {
   margin-bottom: 32px;
 }
@@ -795,6 +783,7 @@ a {
 @media (max-width: 1199px) {
   .cid-v3dbZqfihi .item-img {
     min-height: auto;
+    height: auto;
   }
 }
 .cid-v3dbZqfihi .mbr-video-wrapper {
