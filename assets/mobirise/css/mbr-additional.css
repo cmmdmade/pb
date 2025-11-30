@@ -1545,63 +1545,15 @@ a {
     min-height: 450px;
   }
 }
-.cid-v441sZ4SIc {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-v44762tXIi {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
-.cid-v441sZ4SIc .mbr-text {
-  color: #716c80;
-}
-.cid-v441sZ4SIc .card-wrapper {
-  display: flex;
-  flex-direction: row;
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  transition: all 0.3s;
-  padding: 1rem 1rem !important;
-  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
-}
-.cid-v441sZ4SIc .card-wrapper:hover {
-  transform: translateY(-1rem);
-}
-.cid-v441sZ4SIc .card-wrapper:hover .ico2 {
-  color: #bed2f5 !important;
-}
-.cid-v441sZ4SIc .ico2 {
-  color: #4f6df5 !important;
-  transition: all 0.6s;
-}
-.cid-v441sZ4SIc .text-info:hover {
-  color: inherit!important;
-}
-.cid-v441sZ4SIc .card-box {
-  padding: 0rem 1rem;
-}
-.cid-v441sZ4SIc .ico1 {
-  font-size: 3rem !important;
-}
-.cid-v441sZ4SIc h3,
-.cid-v441sZ4SIc h4 {
-  padding: 0;
-  margin: 0;
-}
-.cid-v441sZ4SIc .card-title,
-.cid-v441sZ4SIc .card-img {
-  color: #57468b;
-}
-.cid-v441sZ4SIc .card-title {
-  color: #57468b;
-}
-.cid-v441sZ4SIc .card-img {
-  width: auto;
-}
-.cid-v441sZ4SIc .mbr-fallback-image.disabled {
+.cid-v44762tXIi .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v441sZ4SIc .mbr-fallback-image {
+.cid-v44762tXIi .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1609,6 +1561,35 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-v44762tXIi .bg-facebook {
+  background: #1778f2;
+  color: #ffffff;
+}
+.cid-v44762tXIi .bg-facebook:hover {
+  background: #0b60cb;
+}
+.cid-v44762tXIi .bg-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+}
+.cid-v44762tXIi .bg-twitter:hover {
+  background: #0c85d0;
+}
+.cid-v44762tXIi .iconfont-wrapper {
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.cid-v44762tXIi [class^="socicon-"]:before,
+.cid-v44762tXIi [class*=" socicon-"]:before {
+  line-height: 55px;
+  padding: .6rem;
 }
 .cid-uneaqyyUgo {
   padding-top: 2rem;
